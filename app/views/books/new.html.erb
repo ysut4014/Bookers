@@ -1,2 +1,4 @@
-<h1>Boooks#new</h1>
-<p>Find me in app/views/boooks/new.html.erb</p>
+<h1></h1>
+<%= form_with model: List.new do |f| %>
+  <%= f.text_field :title %>
+<% end %>
